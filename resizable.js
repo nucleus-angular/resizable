@@ -6,8 +6,7 @@
  */
 angular.module('nag.resizable', [])
 .directive('nagResizable', [
-  'nagDefaults',
-  function(nagDefaults) {
+  function() {
     return {
       restrict: 'A',
       priority: 0,
