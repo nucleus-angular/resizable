@@ -4,7 +4,7 @@
  * @module nag.resizable
  * @ngdirective nagResizable
  */
-angular.module('nag.resizable', [])
+angular.module('nag.resizable')
 .directive('nagResizable', [
   function() {
     return {
